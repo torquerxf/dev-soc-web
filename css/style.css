@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.heading{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 0.2rem;
+    font-style: italic;
+    margin-left: 1em;
+    color: #28282B;
+    animation: InLeft .5s ease-out;
+}
+.heading:hover{
+
+}
+@keyframes InLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-3rem); }
+    50% {
+        color: #A52A2A;
+    }
+    80% {
+      transform: translateX(1rem); }
+    100% {
+      opacity: 1;
+      transform: translateX(0); } }
+@keyframes jiggle {
+    0%{}
+}
